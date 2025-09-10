@@ -1,0 +1,23 @@
+<head>
+  <title>Holy math...</title>
+  <script>
+    function myAddFunction(){
+      let myIn01 = parseFloat(document.getElementById('myNum01').value)
+      let myIn02 = parseFloat(document.getElementById('myNum02').value)
+      let myAnswer = myIn01 + myIn02
+      document.getElementById('mySpan01').innerHTML = '   ' + myIn01 + ' plus ' + myIn02 + ' = ' + myAnswer
+    }
+  </script>
+</head>
+<body>
+  <h1 align=center>t1a02-video-flac-anthony</h1>
+  Input 1:<br>
+  <input id="myNum01" type=number value="1" ><br><br>
+  Input 2:<br>
+  <input id="myNum02" type=number value="1" ><br><br>
+  Event:<br>
+  <input type=button value="myEvent adds" onclick="{
+    myAddFunction()
+  }"><br><br>
+  Output:<span id="mySpan01">...</span>
+</body>
