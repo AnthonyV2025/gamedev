@@ -13,7 +13,16 @@
         document.body.style.backgroundColor = "lightblue";
       }
     }
+    const numbers = [2, 3, 1, 3, 2, 3, 3, 2, 1, 3];
 
+    function addEverySecond() {
+      let sum = 0;
+      for (let i = 1; i < numbers.length; i += 2) {
+        sum += numbers[i];
+      }
+      document.getElementById("result").textContent =
+        "Sum of every second number: " + sum;
+    }
   </script>
 </head>
 <body>
@@ -29,5 +38,8 @@
   Output:<span id="mySpan01">...</span><br><br>
   <input type=button value="Change Colour" onclick="{
     changeColour()
-  }">
+  }"><br><br>
+  <button onclick="addEverySecond()">Add Numbers</button>
+
+  <p id="result"></p></body>
 </body>
