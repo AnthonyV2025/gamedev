@@ -6,6 +6,14 @@
       let myAnswer = myIn01 + myIn02
       document.getElementById('mySpan01').innerHTML = '   ' + myIn01 + ' + ' + myIn02 + ' = ' + myAnswer
     }
+    function changeColour(){
+      if (document.body.style.backgroundColor === "white") {
+        document.body.style.backgroundColor = "lightblue";
+      } else {
+        document.body.style.backgroundColor = "white";
+      }
+    }
+
   </script>
 </head>
 <body>
@@ -19,4 +27,7 @@
     myAddFunction()
   }"><br><br>
   Output:<span id="mySpan01">...</span>
+  <input type=button value="Change Colour" onclick="{
+    changeColour()
+  }">
 </body>
