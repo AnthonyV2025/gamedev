@@ -12,48 +12,26 @@ Note: If you have a link to an assignment that has not been marked, put "open" a
 
 ---      
 
-<details ><summary>Monday Sept 8th, 2025</summary>
-
-### Title
-1.
-1.
-1.
-
-</details>
-
-<details ><summary>Tuesday Sept 9th, 2025</summary>
-
-### Title
-1.
-1.
-1.
-
-</details>
-
 <details><summary>Wed Sept 10th, 2025</summary>
 
 ### Title
-1.
-1.
-1.
+1. Started on t1a2 video flac assignment
+1. Finished up t1a1 proper webpage
 
 </details>
 
 <details><summary>Thursday Sept 11th, 2025</summary>
 
 ### Title
-1.
-1.
-1.
+1. Worked on t1a2 video flac assignment
 
 </details>
 
 <details><summary>Friday Sept 12th, 2025</summary>
 
 ### Title
-1.
-1.
-1.
+1. Added decision to my t1a2 
+1. Added an array and loop
 
 </details>
 
@@ -62,18 +40,15 @@ Note: If you have a link to an assignment that has not been marked, put "open" a
 <details ><summary>Monday Sept 15th, 2025</summary>
 
 ### Title
-1.
-1.
-1.
+1. Prepared for video flac test
 
 </details>
 
 <details><summary>Tuesday Sept 16th, 2025</summary>
 
 ### Title
-1.
-1.
-1.
+1. Did easy video flac test
+1. Began setting up t1a3
 
 </details>
 
