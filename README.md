@@ -79,18 +79,14 @@ Note: If you have a link to an assignment that has not been marked, put "open" a
 <details ><summary>Monday Sept 22nd, 2025</summary>
 
 ### Title
-1.
-1.
-1.
+1. Did forms assignment
 
 </details>
 
 <details><summary>Tuesday Sept 23rd, 2025</summary>
 
 ### Title
-1.
-1.
-1.
+1. Started learning CSS
 
 </details>
 
