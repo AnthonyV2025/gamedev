@@ -1,0 +1,16 @@
+<h1 align=center>t1a10-for-loops-anthony.html</h1>
+
+<input type=button value="loop" onclick="{
+  let myTemp = ''
+  document.getElementById('myDiv01').innerHTML = ''
+  for (x=0;  x<11;  x++){
+    if (x == 3){
+      myTemp += x + ' (thrird) <br>'
+    } else {
+      myTemp += x + '<br>'
+    }
+  }
+  document.getElementById('myDiv01').innerHTML = myTemp
+}"><br><br>
+
+<div id="myDiv01">...</div>
