@@ -1,0 +1,29 @@
+<body onkeypress="myKeyPress(event)">
+
+<h1 align=center>t1a16-div-move-anthony.html</h1>
+
+<div style="position:relative; left:0; right:0; top:0; bottom:0" id="myDiv01">Move me with WASD!</div>
+
+<script>
+  const myDiv = document.getElementById('myDiv01')
+
+  function myKeyPress(event) {
+    if (event.key === "w") {
+      const currentTop = parseInt(myDiv.style.top) || 0
+      myDiv.style.top = currentTop - 20 + 'px'
+    }
+    if (event.key === "a") {
+      const currentLeft = parseInt(myDiv.style.left) || 0
+      myDiv.style.left = currentLeft - 20 + 'px'
+    }
+    if (event.key === "s") {
+      const currentTop = parseInt(myDiv.style.top) || 0
+      myDiv.style.top = currentTop + 20 + 'px'
+    }
+    if (event.key === "d") {
+      const currentLeft = parseInt(myDiv.style.left) || 0
+      myDiv.style.left = currentLeft + 20 + 'px'
+    }
+
+  }
+</script>
